@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+}
+#f8f8{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#ag{
+    margin: auto;
+    display: flex;
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+#ag #img{
+    width: 325px;
+}
+#ag .input{
+    width: 860px;
+    height: 290px;
+    margin: auto;
+}
+#ag .input{
+    margin: auto;
+    margin-top: 25px;
+}
+#form{
+    padding: 30px;
+    width: 650px;
+}
+#form input::placeholder{
+    color: #c8d3dc;
+}
+label{
+    font: 400 16px "Roboto";
+    color: #818587;
+}
+#iki div label{
+    margin-right: 10px;
+}
+a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #adadad31;
+    opacity: 0.7;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+a:hover{
+    opacity: 1;
+    background-color: #94eb75;
+}
+a img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.7;
+}
+a img:hover{
+    color: #fff;
+    opacity: 1;
+}
+#yeddi{
+    padding: 10px 0;
+    margin-bottom: 0px;
+}
+#yeddi input{
+    margin-top: 5px;
+    background: none;
+    border: none;
+    outline: none;
+}
+#yeddi #bronzeinput{
+    color: #fbb03b;
+}
+#yeddi #silverinput{
+    color: #998675;
+}
+#yeddi #goldinput{
+    color: #fcee21;
+}
+#cancel, #save{
+    background-color: #f5f8f8;
+    font: 400 14px "Roboto";
+    text-align: center;
+    color: #818587;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    margin-top: 0;
+}
+#save{
+    background-color: #f5f8f8;
+}
+#cancel:hover, #save:hover{
+    background-color: #94eb75;
+    color: #fff;
+}
+input[name='gender'] {
+    appearance: none;
+    outline: none;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  input[name='gender']:after {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    text-align: center;
+    font-size:25px;
+    content: attr(data-icon);
+    padding: 15px 15px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s, color 0.3s;
+  }
+  input[name='gender']:hover {
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    background-color: #94eb75;
+  }
+  input[name='gender']:checked:after {
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.4);
+    background-color: #94eb75;
+    color: white;
+  }
